@@ -1,24 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+
+💳
+
+# Stripe Next Hosted
+
+**Integração de pagamentos Stripe Checkout hospedado em app Next.js com API route e páginas de sucesso/cancelamento.**
+
+<br />
+
+[![Repositório público](https://img.shields.io/badge/repo-público-2ea44f?style=flat-square&logo=github&logoColor=white)](https://github.com/oadcavalcante/stripe-next-hosted)
+
+<br />
+
+[![Next.js 15](https://img.shields.io/badge/Next.js-000000?style=flat-square&logoColor=fff&logo=nextdotjs)](https://github.com/oadcavalcante/stripe-next-hosted) [![React 19](https://img.shields.io/badge/React-61DAFB?style=flat-square&logoColor=000&logo=react)](https://github.com/oadcavalcante/stripe-next-hosted) [![@stripe/react-stripe-js](https://img.shields.io/badge/React-61DAFB?style=flat-square&logoColor=000&logo=react)](https://github.com/oadcavalcante/stripe-next-hosted) [![Tailwind CSS 3](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logoColor=fff&logo=tailwindcss)](https://github.com/oadcavalcante/stripe-next-hosted)
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logoColor=fff&logo=typescript)](https://github.com/oadcavalcante/stripe-next-hosted) [![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logoColor=fff&logo=stripe)](https://github.com/oadcavalcante/stripe-next-hosted) [![@stripe/stripe-js](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logoColor=fff&logo=stripe)](https://github.com/oadcavalcante/stripe-next-hosted)
+
+<br />
+
+[Stack completa ↓](#stack)
+
+<br />
+
+[Documentação](https://github.com/oadcavalcante/stripe-next-hosted/blob/main/README.md) · [Deploy](#deploy) · [API](/api/create-checkout-session) · [Issues](https://github.com/oadcavalcante/stripe-next-hosted/issues)
+
+</div>
+
+## Features
+
+- ✨ Checkout Stripe hospedado via redirectToCheckout
+- 🚀 API route POST /api/create-checkout-session
+- ⚡ Criação de sessão com price_data dinâmico
+- 🎯 Páginas de sucesso e cancelamento
+- 🔧 Validação de quantidade no backend
+- 📦 Variáveis de ambiente para chaves Stripe
 
 ## Getting Started
 
-First, run the development server:
+| Ambiente | Comando / Link |
+|----------|----------------|
+| Primeira vez | `npm run dev` |
+| Documentação | [README](https://github.com/oadcavalcante/stripe-next-hosted/blob/main/README.md) |
+| Produção | N/A |
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Frontend:** Next.js 15, React 19, @stripe/react-stripe-js, Tailwind CSS 3
+- **Outros:** TypeScript, Stripe, @stripe/stripe-js
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
 ## Learn More
 
